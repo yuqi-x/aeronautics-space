@@ -1,0 +1,21 @@
+{
+  "type": "aeronautics_space:mars",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:desert",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:red_sand",
+          "height": 63
+        }
+      ]
+    }
+  }
+}

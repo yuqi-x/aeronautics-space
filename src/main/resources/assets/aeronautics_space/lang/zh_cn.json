@@ -1,0 +1,5 @@
+{
+  "item.aeronautics_space.planet_teleporter": "星际传送器",
+  "item.aeronautics_space.planet_teleporter.tip": "右键打开星球选择界面",
+  "gui.aeronautics_space.planet_select.title": "选择目的地星球"
+}

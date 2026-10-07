@@ -1,0 +1,21 @@
+{
+  "type": "aeronautics_space:jupiter",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:nether_wastes",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:yellow_concrete",
+          "height": 63
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dimension": "aeronautics_space:mercury",
+  "priority": 100,
+  "base_gravity": [
+    0.0,
+    -4.158,
+    0.0
+  ],
+  "base_pressure": 0.0
+}

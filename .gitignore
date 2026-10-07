@@ -1,0 +1,23 @@
+# 构建产物
+build/
+*.class
+
+# 依赖 jar（第三方模组，版权原因不入库；由 build.py 从本机读取）
+libs/
+_ref/
+
+# 原始下载素材（体积大，已压缩转换后的成品在 resources 里）
+_textures_raw/
+
+# JVM 崩溃日志
+hs_err_pid*.log
+replay_pid*.log
+
+# IDE / 系统
+.idea/
+*.iml
+.vscode/
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc

@@ -1,0 +1,21 @@
+{
+  "type": "aeronautics_space:uranus",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:frozen_ocean",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:packed_ice",
+          "height": 63
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "item.aeronautics_space.planet_teleporter": "Planet Teleporter",
+  "item.aeronautics_space.planet_teleporter.tip": "Right-click to open the planet selector",
+  "gui.aeronautics_space.planet_select.title": "Select Destination"
+}

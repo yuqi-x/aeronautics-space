@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+group = 'com.yuqi.aeronauticsspace'
+version = '0.1.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+neoForge {
+    version = '21.1.256'
+
+    runs {
+        client {
+            client()
+        }
+        server {
+            server()
+        }
+    }
+
+    mods {
+        aeronautics_space {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // 编译期依赖：Sable 物理引擎 + Create Aeronautics 本体
+    // （运行时由游戏 mods/ 目录提供，故 compileOnly）
+    compileOnly files('libs/sable-neoforge-1.21.1-1.2.2.jar')
+    compileOnly files('libs/aeronautics-neoforge-1.21.1-1.2.1.jar')
+}
+
+// 把源码编码固定成 UTF-8，避免中文注释在 GBK 环境下炸编译
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

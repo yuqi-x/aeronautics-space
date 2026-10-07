@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="aeronautics_space"
+version="0.1.0"
+displayName="Create Aeronautics: Space"
+description='''
+Fly your Create: Aeronautics contraptions up past the atmosphere.
+Above the space line the sky turns to stars, drag fades to vacuum,
+and gravity lets go - your airship becomes a spacecraft.
+'''
+
+[[dependencies.aeronautics_space]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.219,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.aeronautics_space]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.aeronautics_space]]
+modId="sable"
+type="required"
+versionRange="[1.2.1,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.aeronautics_space]]
+modId="create"
+type="required"
+versionRange="[6.0.10,)"
+ordering="AFTER"
+side="BOTH"
+
+# 客户端天空盒 mixin
+[[mixins]]
+config="aeronautics_space.mixins.json"

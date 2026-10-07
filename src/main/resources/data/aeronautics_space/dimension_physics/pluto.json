@@ -1,0 +1,10 @@
+{
+  "dimension": "aeronautics_space:pluto",
+  "priority": 100,
+  "base_gravity": [
+    0.0,
+    -0.693,
+    0.0
+  ],
+  "base_pressure": 0.0
+}

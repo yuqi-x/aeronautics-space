@@ -1,0 +1,10 @@
+{
+  "dimension": "aeronautics_space:jupiter",
+  "priority": 100,
+  "base_gravity": [
+    0.0,
+    -27.808,
+    0.0
+  ],
+  "base_pressure": 0.0
+}
